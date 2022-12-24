@@ -1,0 +1,95 @@
+
+zscore for both, which other mehtd for removing outliers?
+outlier-not applicable on categorical only continous
+
+normal distribution - what shd be the data type-----
+
+shift+tab in curve
+hyper tuning- 
+
+regressijn-logictic only regularisation...regularisation only for linear
+
+pther wise hyper parameter - regrssion or classification, or even clsutering
+
+reuarisation - mch conri -contri will be reduced
+
+regression - base algortoh parmaeters of tht base algortih, 
+
+
+randomised search sv , serch ridged serach cv= both ......base
+
+classificstion - 
+
+nrmal dis, labelled column - no target column e-comm float certain offers based on beahvior of users - 
+group customers-gtp similar customers to give offers-  
+
+If the target variable is continous then it's a regression 
+and if the target column is classification then it's a classification problem
+
+df.isnull.sum().sum() #ti ceck entrir data fr nulls
+
+df.['class'].hist(grid=False) #separate class
+plt.title('RckvsMine')
+plt.show()
+
+correlation matrix for both
+powertransform not power transformation- tranformtion technique for skewness-categoicsl maybe-best
+others- log, sqrt, cbrt, cube, square, exponential, (u can also merge 2 metjods)
+ after checking skewess, u check zscore0 for regression and classification
+
+methods-accuracy
+For regression you can use rmse, mse, mae, r 2 ,adjusted r 2 , grid search , lasso, usedin regression also mainly
+for classification you can use f1 score, precision, recall, accuracy -confusion matrix, classificatpn report,  
+grid search cv and randomised search cv
+Accuracy- xgb workd wll for classification and regression, use only for big n complex data
+
+SVC - classification
+SVR - regression
+
+randon forest-regression
+cross validation-regression
+
+decisio tree, random forest, decision tree, confusion matrix, classicication report,- logictic regression
+later svc-logictic regression/knn classifier, XG bost, ada boost/cross validation
+hypre parameter tuning methos logistic-grid cv-random forest classifier/xgb classifier....roc/auc plot-saves as pickle file
+
+label encoder for ordinal data
+one hot encoder for nominal data
+
+#Principal Component Analysis (PCA) - logistic/classification, similar to standard scaler, can be used with it.
+it is used when correlation not found between target n features, solves multi correlity
+
+regresssion methods:
+Gradient Descent/
+Least Square Method / Normal Equation Method
+Adams Method
+Singular Value Decomposition (SVD)
+boosting n bagging-ada boost
+xgb works well for classification as weell works well for regression
+
+
+If the target a column is continuous then linear regression 
+and if the target column is classification
+ then go for Logistic regression
+
+All dataframe have numeric and categorical features
+You have to just identify or verify the target variable whether it is continuous or classification
+
+Target / Label — is the column that we want to predict.
+ It is our resultant column and we want to know for future data. 
+In this dataset, it’s column “Fit/Unfit” marked in blue. 
+Our entire supervised learning is dependent on this one column because this is what we want to know.
+
+
+Variables/ Features — are the columns other than the Target column. 
+These columns help the ML model to predict the target for future data points. 
+In this dataset, the variables are -> “Eats Pizza”, “Drinks Coke”, “Eats Greens” and “Workout”.
+
+
+fir regression-to slect features, u can use
+- select percentile method= classification
+-annova - regression
+
+classification methods:
+ logistic regression, decision tree, random forest, support vector machine, k nearest neighbour 
+- gradient classifier, 

@@ -1,0 +1,18 @@
+def model_selection(algorithm_instance,x_train,y_train,x_test,y_test):
+model_1_pred_train algorithm_instance.fit algorithm(x_train,y_train Instance.predict) (x_train)
+model_1_pred_test algorithm instance.predict(x_test)
+print('accuracy of the training model :, model_1_pred_train)
+print('accuracy of the test data , model_1_pred_test)
+print('classification report for test data", classification report y_test, model_1_pred_test))
+print('classification report for train data", classification report(y_train, model_1_pred_train)) 
+print('confusion matrix:', confusion_matrix(y_test, model_1_pred_test))
+
+
+
+model_selection(lr, x_train,y_train, x_test,y_test) #lr is logostic regression, u can call xgb, etc also
+
+import numpy as np
+a=np.array(y_test)
+predicted-np.array(lr.predict(x_test))
+df_com=pd.DataFrame({"original":0,"predicted":predicted}, index=range(len(a)))
+df_com

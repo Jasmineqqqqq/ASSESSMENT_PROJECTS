@@ -1,0 +1,27 @@
+(1 Imported the Libraries
+2. Loaded the data
+3. Data visualization univariate, bivariate, multivariate
+3.1. Categorical -Histogram/count plot-> frequency of the classes
+3.2 continuous Density plot -----> density of the data distribution
+4. Balanced ===> the frequency of the classes were almost equal
+5. Divided my data intd Independent variable(x)
+and dependent variable(y)
+6.---> categorical data (classes) -> Encoded this variable Label Encoding /OHE/Ordinat encoder/target encoder
+7. ---> continuous data ----> skewness of the data --- Skewness was FOUND
+#REMOVED THE SKEWNESS USING THE TRANSFORMATION TECHNIQUES Log, square, squareroot, cube root, exponential,etc.
+x ----> power transformation ----> shewness was removed.
+8. x-=>does not have any shewness (-1,1)or (-4,4)==> normal distribution (-0.5,0.5) (-0.25,0.25)
+y --> encoded
+9. Checked the data for outliers ====> boxplot- > zscore ==> (-3,3) rule of thumb
+#zscore (-3,3) ---> this is the rule thumb > only be calculated for the numerical data (continuous data)
+#SKEWNESS, zscore for categorical data > THIS IS INVALID OPERATION.
+
+zscoreca noot be applied on categorical dta even if encoded
+
+scale --> standardization (mean-8, std-1)/Normalization (range --> (0,1))
+Nean ----> "Mine"and "Rock"
+THE DATA IS PREPROCESSED AND THE DATA IS READY FOR TRAINING PROCESS.
+correlation
+continuous features pearson
+categorical features cramer's V
+#Scale your data just before the training. Normalization P standardization
